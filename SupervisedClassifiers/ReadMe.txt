@@ -3,16 +3,22 @@ SupervisedClassifiers.m implements a User Input section that allows the user to 
 
 Given below is the User-Input section of the SupervisedClassifiers.m file
 ------------------------------------------------------------------------------
-%% User Inputs
-%UnComment the below line for Fisher's projection
-%FISHERS_PROJECTION = 1;
-
-%Uncomment required classifier
-K_CLASS_DISCRIMINANT = 1;
-%KNN_CLASSIFIER       = 1;
-%k_nn = 5; %sqrt(size(train_featureVector, 1)); % select a value of K for KNN classifier
-
-%I_WANT_ALL_FEATURES = 1; 
+%
+% 
+%             Given below is the User-Input section
+%   |------------------------------------------------------|
+%   | %% User Inputs                                       |
+%   |                                                      |
+%   | FISHERS_PROJECTION = 1;                              |
+%   |                                                      |
+%   | K_CLASS_DISCRIMINANT = 1;                            |
+%   | KNN_CLASSIFIER       = 1;                            |
+%   | k_nn = 5; % select a value of K for KNN classifier   |
+%   |                                                      |
+%   | I_WANT_ALL_FEATURES = 1;                             |
+%   |------------------------------------------------------|
+% 
+%
 ------------------------------------------------------------------------------
 
 If LDA is required, uncomment "%FISHERS_PROJECTION = 1;"
